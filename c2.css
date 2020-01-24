@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
+
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  border: 3px solid #fff;  /* For debugging */
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-container p {
+  padding: 110px;
+}
+
+.header {
+  width: 900px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Hello {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 48px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pic1 {
+  display: flex;
+  width: 400px;
+  height: 250px;
+}
+
+.pic2 {
+  display: flex;
+  width: 400px;
+  height: 400px;
+}
+
+
+.pic3 {
+  display: flex;
+  width: 400px;
+  height: 500px;
+}
